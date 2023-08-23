@@ -1,0 +1,80 @@
+* {
+    font-family: 'raleway';
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 73px;
+    line-height: 73px;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+}
+
+section.description {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+}
+
+section.description img {
+    width: 50%;
+}
+
+section .p-paragraphs {
+    width: 50%; 
+}
+
+section.features {
+    background-color: #1E1A13;
+    color: #FFFFFF;
+    padding-bottom: 74px;
+}
+
+.features h3 {
+    text-align: center;
+    padding-top: 50px;
+      
+}
+
+section .icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section .icons i {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+section.images {
+    background-color: #000000;
+    
+}
+
+.images .image { 
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 73px;
+    padding-bottom: 73px;
+
+}
+.images .image img {
+    width: 25%; 
+}
+
+footer.page {
+    background-color: #1E1A13;
+    
+}
+
+footer.page p {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
